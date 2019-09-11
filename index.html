@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+
+    <title>Games and politics game jam</title>
+
+    <style>
+        @font-face {
+            font-family: "Pixeled";
+            src: url("Pixeled.ttf");
+        }
+        body {
+            font-family: 'IM Fell English SC', serif;
+            box-sizing: border-box;
+        }
+
+        .header {
+            position: absolute;
+            left: 10%;
+            bottom: 5%;
+        }
+
+        .header > h2 {
+            color: white;
+            font-family: "Pixeled"
+        }
+
+        .header > h3 {
+            color: gray;
+        }
+
+        .section{
+            background: black;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        .section span {
+            display: block;
+            height: auto;
+            background: black;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .section {
+                height: fit-content !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container-fluid p-0">
+        <div class="vh-100 row p-0" style="background: black">
+            <video autoplay width="100%" height="100%" autoplay loop>
+                <source src="gif_brtco.mp4" type="video/mp4">
+            </video>
+            <div class="header">
+                <h2>"BRCK"</h1>
+                <h3>Self-proclaimed the best game of the Games and Politics hackathon, Thessaloniki 2019</h3>
+            </div>
+        </div>
+
+        <div class="vh-100 row section">
+            <div class="col-sm-12 col-md-6 p-5">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/GuCdsyCWmt8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-12 col-md-6 p-5">
+                <span class="align-middle">The BRCK is a local multiplayer (1-2 players) game that is played on the 5x5 board with 3 types of cubes.
+                        Players choose roles between puzzler and solver where puzzler sets up the stage with starting and ending point, and places immovable obstacles to add more difficulty when solving the puzzle. The solver is granted with the 3 cubes and his goal is to move the AR character along the cubes while trying to solve the puzzle.
+                        Chat conversation end
+                        Type a message...
+                        
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ </body>
+</html>
